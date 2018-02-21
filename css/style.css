@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    height: 77px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+   
+}
+
+nav ul{
+    float: right;
+    margin-right: 72px;
+    margin-top: 28px;
+}
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 36px;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    /* padding-top: 370px;
+    padding-left: 525px;
+    padding-bottom: 300px; */
+
+    padding: 251px 0px 283px 367px;
+
+    background-image: url('../img/bkg1.jpg'); 
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+.logo{
+    width: 131px;
+    margin-left: 136px;
+    margin-top: 18px;
+}
+
+.slogan{
+    color: #ffffff;
+    font-size: 66px;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+
+
+.btn{
+    padding: 19px 20px;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+section{
+    margin-top: 45px;
+}
+
+.btn-verde{
+    background-color: #1db954;
+    width: 311px;
+}
+
+.btn-branco{
+    background-color: rgba(0,0,0,0);
+    border: solid 2px white;
+    margin-left: 15px;
+    width: 300px;
+}
+
+.texto{
+    margin-left: 141px;
+}
+
+.txt1{
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.txt2{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.guia{
+   width: 100%;
+   z-index: -1;
+   position: absolute;
+   opacity: 0.5; 
+}
+
+
+#direita{
+    width: 660px;
+    height: 660px;
+    float: right;
+
+}
+
+#esquerda{
+    width: 584px;
+    height: 660px;
+    float: left;
+    
+}
